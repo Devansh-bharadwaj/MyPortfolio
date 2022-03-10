@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.82efbf11.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.71b27786.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.71b27786.chunk.js.map",
-    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.8faa7b57.js",
-    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.8faa7b57.js.map",
-    "static/js/2.ae67831e.chunk.js": "/MyPortfolio/static/js/2.ae67831e.chunk.js",
-    "static/js/2.ae67831e.chunk.js.map": "/MyPortfolio/static/js/2.ae67831e.chunk.js.map",
-    "static/js/3.a22a7f87.chunk.js": "/MyPortfolio/static/js/3.a22a7f87.chunk.js",
-    "static/js/3.a22a7f87.chunk.js.map": "/MyPortfolio/static/js/3.a22a7f87.chunk.js.map",
-    "index.html": "/MyPortfolio/index.html",
-    "static/css/main.82efbf11.chunk.css.map": "/MyPortfolio/static/css/main.82efbf11.chunk.css.map",
-    "static/js/2.ae67831e.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.ae67831e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/MyPortfolio/static/media/Poppins-Thin.a61eaf4c.ttf",
-    "static/media/Home.css": "/MyPortfolio/static/media/profile.8421edc8.png"
+    "main.css": "/static/css/main.c2e62238.chunk.css",
+    "main.js": "/static/js/main.71b27786.chunk.js",
+    "main.js.map": "/static/js/main.71b27786.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.60894bf7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.60894bf7.js.map",
+    "static/js/2.ae67831e.chunk.js": "/static/js/2.ae67831e.chunk.js",
+    "static/js/2.ae67831e.chunk.js.map": "/static/js/2.ae67831e.chunk.js.map",
+    "static/js/3.a22a7f87.chunk.js": "/static/js/3.a22a7f87.chunk.js",
+    "static/js/3.a22a7f87.chunk.js.map": "/static/js/3.a22a7f87.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c2e62238.chunk.css.map": "/static/css/main.c2e62238.chunk.css.map",
+    "static/js/2.ae67831e.chunk.js.LICENSE.txt": "/static/js/2.ae67831e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Poppins-Thin.a61eaf4c.ttf",
+    "static/media/Home.css": "/static/media/profile.8421edc8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8faa7b57.js",
+    "static/js/runtime-main.60894bf7.js",
     "static/js/2.ae67831e.chunk.js",
-    "static/css/main.82efbf11.chunk.css",
+    "static/css/main.c2e62238.chunk.css",
     "static/js/main.71b27786.chunk.js"
   ]
 }
