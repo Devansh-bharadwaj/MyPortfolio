@@ -1,0 +1,32 @@
+.cHead {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+}
+.cMain {
+    display: flex;
+    justify-content: space-between;
+}
+.rightBox {
+    width: 35%;
+}
+.rightBox img {
+    width: 100%;
+}
+.leftBox {
+    width: 55%;
+}
+.linked {
+    border: 1px solid green;
+    font-family: 'Roboto Mono', monospace;
+}
+.linked p a {
+    color: rgb(20, 155, 155);
+}
+.linked p a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.linked p {
+    padding: 8px 12px 6px 12px;
+}
