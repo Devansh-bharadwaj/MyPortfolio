@@ -1,0 +1,63 @@
+.sHeading {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+}
+.sHeading2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: x-large;
+    margin-top: 24px;
+}
+.sMain {
+    display: flex;
+    align-items: center;
+}
+.sRightBox img{
+    width: 100%;
+    border-radius: 9px;
+    /* margin-top: 12px; */
+    /* margin-left: 14px; */
+}
+
+.progressBox {
+    width: 100%;
+    height: 70px;
+    margin-top: 16px;
+}
+.htmlBox {
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left, red, gold);
+    width: 90%;
+    height: 22px;
+}
+.cssBox {
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left, red, gold);
+    width: 80%;
+    height: 22px;
+}
+.jsBox {
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left, red, gold);
+    width: 60%;
+    height: 22px;
+}
+.reactBox {
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left, red, gold);
+    width: 60%;
+    height: 22px;
+}
+.sLeftBox {
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (max-width: 988px) {
+    .sMain {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sLeftBox {
+        margin-top: 24px;
+    }
+}
