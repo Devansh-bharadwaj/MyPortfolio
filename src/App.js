@@ -1,5 +1,5 @@
 import "./App.css";
-import Footer from "./PortfolioContainer/Home/Footer/Footer";
+// import Footer from "./PortfolioContainer/Home/Footer/Footer";
 // import Profile from "./PortfolioContainer/Home/Profile/Profile";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Skills from "./PortfolioContainer/AboutMe/Skills";
@@ -14,9 +14,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/MyPortfolio" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/project" element={<Project />} />
+          <Route path="/projects" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>

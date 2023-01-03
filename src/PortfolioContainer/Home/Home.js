@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Home.css";
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
     return (
@@ -32,7 +33,9 @@ export default function Home() {
                         <div className="profile-details-role">
                             <span className="primary-text">
                                 {" "}
-                                <h1>React Developer</h1>
+                                <h1><Typewriter onInit={(typewriter) => {
+                                    typewriter.typeString("React Developer!").pauseFor(2000).deleteAll().typeString("Frontend Developer!").start();
+                                }}/></h1>
                                 <span className="profile-role-tagline">
                                     I am a quick learner of diffrent technologies and have a good
                                     knowledge of web development.
@@ -40,7 +43,7 @@ export default function Home() {
                             </span>
                         </div>
                         <div className="profile-options">
-                            <button className="btn primary-btn"> Hire Me </button>
+                            <button className="btn primary-btn"><a href='mailto:devanshbharadwaj1@gmail.com' style={{color:"white", textDecoration:"none"}}>Hire me</a></button>
                             <a href="DevanshResume.pdf" download="Devansh DevanshResume.pdf">
                                 <button className="btn highlighted-btn">Get Resume</button>
                             </a>

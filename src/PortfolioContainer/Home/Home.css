@@ -15,6 +15,7 @@
   height: 10%;
   min-height: fit-content;
   background-image: url("./bg.jpg");
+  margin-top: 65px;
 }
 .profile-parent {
   display: flex;
@@ -35,7 +36,7 @@
   font-family: cursive;
 }
 .primary-text {
-  color: (--white);
+  color: var(--sea-green-extra-dark);
 }
 .highlighted-text {
   color: var(--dark-orange);
@@ -43,7 +44,8 @@
 .profile-role-tagline {
   font-size: 19px;
   margin: 5px 0 0 0;
-  font-family: "Poppins Light";
+  font-family: 'Roboto Mono', monospace;
+  color: var(--black);
 }
 .profile-options .highlighted-btn {
   margin: 0 0 0 28px;
@@ -57,7 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 0px 0px var(--white);
+  box-shadow: 0 1px 0px 0px var(--orange);
   border-radius: 50%;
   height: 380px;
   width: 380px;
@@ -67,7 +69,7 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("./profile.png");
+  background-image: url("./profile.jpeg");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -78,7 +80,7 @@
   transition: 1s ease-out;
 }
 .colz .colz-icon i {
-  color: white;
+  color: rgb(92, 56, 85);
   padding: 8px;
   padding-left: 0px;
 }
@@ -88,6 +90,9 @@
 @media screen and (max-width: 1110px) {
   .profile-picture {
     margin: 0 0 0 80px;
+  }
+  .profile-container {
+    margin-top: 15px;
   }
   .profile-details-name {
     font-size: 20px;
@@ -107,11 +112,18 @@
     width: 320px;
     margin: 0 0 0 4px;
   }
+  .profile-container {
+    margin-top: 15px;
+  }
 }
 @media screen and (max-width: 810px) {
   .profile-picture {
     margin: 0 !important;
   }
+  .profile-container {
+    margin-top: 15px;
+  }
+
   .profile-parent {
     flex-direction: column-reverse;
     margin: 40px 0 0 0;
@@ -139,5 +151,8 @@
   }
   .profile-details {
     width: 90%;
+  }
+  .profile-container {
+    margin-top: 15px;
   }
 }

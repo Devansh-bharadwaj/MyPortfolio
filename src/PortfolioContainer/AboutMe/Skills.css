@@ -26,25 +26,25 @@
 }
 .htmlBox {
     border-radius: 5px;
-    background: -webkit-linear-gradient(left, red, gold);
+    background: -webkit-linear-gradient(left, darkcyan, white);
     width: 90%;
     height: 22px;
 }
 .cssBox {
     border-radius: 5px;
-    background: -webkit-linear-gradient(left, red, gold);
+    background: -webkit-linear-gradient(left, darkcyan, white);
     width: 80%;
     height: 22px;
 }
 .jsBox {
     border-radius: 5px;
-    background: -webkit-linear-gradient(left, red, gold);
+    background: -webkit-linear-gradient(left, darkcyan, white);
     width: 60%;
     height: 22px;
 }
 .reactBox {
     border-radius: 5px;
-    background: -webkit-linear-gradient(left, red, gold);
+    background: -webkit-linear-gradient(left, darkcyan, white);
     width: 60%;
     height: 22px;
 }
