@@ -3,19 +3,30 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--header-hamburger-background);
+    background-color: var(--header-background);
     height: 8vh;
 }
 .subnav {
-    color: whitesmoke;
+    color: var(--header-text);
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+}
+.subnav:hover {
+    color: var(--header-text-hover);
+    text-decoration: none;
+}
+.active {
+    color: var(--header-text-hover);
+    border-bottom: 2px solid var(--header-text-hover);
+}
+.light-mode {
+    color: var(--header-text);
     font-family: 'Source Code Pro', monospace;
     font-size: large;
     font-weight: 500;
 }
-.subnav:hover {
-    color: #3C4048;
-    text-decoration: none;
-}
-.active {
-    color: #3C4048;
+.light-mode-switch {
+    color: var(--switch);
 }

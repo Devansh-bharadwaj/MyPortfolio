@@ -2,16 +2,23 @@
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: xx-large;
+    color: var(--sHeading-text);
 }
 .contNum {
     font-family: 'Roboto Mono', monospace;
+    color: var(--sHeading-text);
 }
 .cMain {
     display: flex;
     justify-content: space-between;
 }
 .rightBox {
-    width: 35%;
+    width: 46%;
+    background-image: var(--contact-me-bg);
+    height: 368px;
+    background-size: 83% 80%;
+    background-repeat: no-repeat;
+    margin-left: 64px;
 }
 .rightBox img {
     width: 100%;
@@ -20,11 +27,13 @@
     width: 55%;
 }
 .linked {
-    border: 1px solid green;
+    border: 1px solid var(--card-border);
     font-family: 'Roboto Mono', monospace;
+    background-color: var(--card-bg);
+    color: var(--tagline-text);
 }
 .linked p a {
-    color: rgb(20, 155, 155);
+    color: var(--link-text);
 }
 .linked p a:hover {
     text-decoration: none;
@@ -33,7 +42,14 @@
 .linked p {
     padding: 8px 12px 6px 12px;
 }
-@media only screen and (max-width: 988px) {
+@media screen and (max-width: 612px) {
+    .rightBox {
+        width: 69% !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 988px) {
     .cMain {
         flex-direction: column-reverse;
     }
@@ -43,6 +59,7 @@
     .rightBox {
         width: 100%;
         text-align: center;
+        margin: auto;
     }
     .rightBox img {
         width: 50%;

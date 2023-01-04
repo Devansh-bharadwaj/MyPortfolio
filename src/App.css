@@ -1,20 +1,46 @@
-:root{
+.light-theme{
   --light-blue : #04C3FF;
   --light-blue-shadow:  rgb(69 211 255 / 27%);
   --sea-green: #0ABEAD;
   --sea-green-dark: #0CBFAE;
-  --sea-green-extra-dark: #09BEAD;
+  --primary-text: #09BEAD;
   --sea-green-shadow: rgba(11, 190, 173,0.4);
-  --header-hamburger-background : rgba(11, 190, 173,0.8);
+  --header-background : rgba(11, 190, 173,0.8);
   --orange: #F57F17;
-  --dark-orange: #FF5823;
+  --highlighted-text: #FF5823;
   --orange-shadow: rgba(245, 127, 23,0.2);
-  --white: #ffffff;
-  --black: #333333;
-  --disabled-btn: #09bead7a;
+  --header-text: #ffffff;
+  --tagline-text: #333333;
+  --header-text-hover: #01302cda;
   --error-message:  #e44f4fd1;
   --toast-error: #e44f4ffa;
   --toast-shadow:  #9c9c9ce3;
   --toast-success: #0CBFAE;
-  --loader-color: #0CBFAE
+  --loader-color: #0CBFAE;
+  --home-bg: url('./PortfolioContainer/Home/bg.jpg');
+  --bg-component: #fff;
+  --sHeading-text: #000;
+  --progress-text-color: black;
+  --card-bg: #fff;
+  --card-border: green;
+  --contact-me-bg: url('./PortfolioContainer/ContactMe/contactme1.jpg');
+  --link-text: rgba(11, 190, 173,0.8);
+}
+
+.dark-theme {
+  --header-background: #040303;
+  --header-text: #B3541E;
+  --header-text-hover: #b9581fbe;
+  --primary-text: #A13333;
+  --home-bg: url('./PortfolioContainer/Home/dark-bg.jpg');
+  --highlighted-text: #B3541E;
+  --tagline-text: #fff;
+  --orange: #A13333;
+  --bg-component: #000000f2;
+  --sHeading-text: #A13333;
+  --progress-text-color: #B3541E;
+  --card-bg: #040303;
+  --card-border: #B3541E;
+  --contact-me-bg: url('./PortfolioContainer/ContactMe/contactmedark.png');
+  --link-text: #B3541E;
 }

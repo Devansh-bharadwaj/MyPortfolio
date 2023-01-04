@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 670px;
-  background-image: url("./bg.jpg");
+  background-image: var(--home-bg);
 }
 
 /* profile.css */
@@ -14,7 +14,7 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-  background-image: url("./bg.jpg");
+  background-image: var(--home-bg);
   margin-top: 65px;
 }
 .profile-parent {
@@ -36,19 +36,20 @@
   font-family: cursive;
 }
 .primary-text {
-  color: var(--sea-green-extra-dark);
+  color: var(--primary-text);
 }
 .highlighted-text {
-  color: var(--dark-orange);
+  color: var(--highlighted-text);
 }
 .profile-role-tagline {
   font-size: 19px;
   margin: 5px 0 0 0;
   font-family: 'Roboto Mono', monospace;
-  color: var(--black);
+  color: var(--tagline-text);
 }
 .profile-options .highlighted-btn {
   margin: 0 0 0 28px;
+  color: white;
 }
 .profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;

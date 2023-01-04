@@ -2,6 +2,7 @@
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: xx-large;
+    color: var(--sHeading-text);
 }
 .pMain {
     display: flex;
@@ -12,9 +13,11 @@
 .card-title {
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
+    color: var(--progress-text-color);
 }
 .card-text {
     font-family: 'Roboto Mono', monospace;
+    color: var(--tagline-text);
 }
 .pRightBox {
     width: 35%;
@@ -29,23 +32,24 @@
     /* border: 2px solid red; */
 }
 .pBtn {
-    background-color: var(--dark-orange);
+    background-color: var(--highlighted-text);
     color: white;
     border-radius: 14px;
-    border: 1px solid var(--dark-orange);
+    border: 1px solid var(--highlighted-text);
     font-family: 'Roboto Mono', monospace;
     padding: 8px;
 }
 .pBtn:hover {
     background-color: white;
-    color: var(--dark-orange);
+    color: var(--highlighted-text);
 }
 .cBox {
     display: flex;
     justify-content: space-between;
 }
 .card {
-    border: 1px solid green;
+    border: 1px solid var(--card-border);
+    background-color: var(--card-bg);
 }
 
 

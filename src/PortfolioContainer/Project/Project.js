@@ -4,7 +4,9 @@ import img from './projectImg.png'
 
 export default function Project() {
   function previewProject() {
-    return window.location.href = "https://devansh-bharadwaj.github.io/spotify-clone/"
+    return (
+      window.location.href = "https://devansh-bharadwaj.github.io/pharmacyProducts"
+    )
   }
   function previewProject1() {
     return window.location.href="https://devansh-bharadwaj.github.io/Magic-Note/"
@@ -22,12 +24,12 @@ export default function Project() {
         <div className="pLeftBox">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Spotify Clone</h5>
+              <h5 className="card-title">pharmacyProducts</h5>
               <div className="cBox">
                 <div>
                   <p className="card-text">
-                    Build the Spotify clone to listen music.<br></br>
-                    -HTML, CSS, Javascript
+                    Build the Pharmacy products webApp.<br></br>
+                    -React.Js
                   </p>
                 </div>
                 <div>
@@ -67,7 +69,7 @@ export default function Project() {
                 <div>
                   <p className="card-text">
                     Build the Admin dashboard webApp. To see this use password and username as 'admin'.<br></br>
-                    -ReactJs
+                    -React.Js
                   </p>
                 </div>
                 <div>
