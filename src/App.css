@@ -19,12 +19,14 @@
   --loader-color: #0CBFAE;
   --home-bg: url('./PortfolioContainer/Home/bg.jpg');
   --bg-component: #fff;
+  --bg-progress: #fff;
   --sHeading-text: #000;
   --progress-text-color: black;
   --card-bg: #fff;
   --card-border: green;
   --contact-me-bg: url('./PortfolioContainer/ContactMe/contactme1.jpg');
   --link-text: rgba(11, 190, 173,0.8);
+  --bg-progress-circle: #fff;
 }
 
 .dark-theme {
@@ -37,6 +39,8 @@
   --tagline-text: #fff;
   --orange: #A13333;
   --bg-component: #000000f2;
+  --bg-progress: #000000f2;
+  --bg-progress-circle: #A13333;
   --sHeading-text: #A13333;
   --progress-text-color: #B3541E;
   --card-bg: #040303;

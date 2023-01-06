@@ -3,7 +3,7 @@ import "./Skills.css";
 
 export default function Skills() {
   return (
-    <div className="container mt-5">
+    <div className="container my-5">
       <div className="sHeading">Skills</div>
       <div className="sHeading2">My Professional Skills</div>
       <div className="sMain">
@@ -13,10 +13,10 @@ export default function Skills() {
             my skill level as per each Language, you can also checkout some of
             my work samples in <i>project</i> section.
           </div>
-          <div class="progressBox">
-            <i class="fab fa-html5">HTML5</i>
+          {/* <div class="progressBox">
+            <h2>HTML5</h2>
             <div className="htmlBox">
-              <p>90%</p>
+              <span>90%</span> 
             </div>
           </div>
           <div class="progressBox">
@@ -35,6 +35,28 @@ export default function Skills() {
             <i class="fab fa-react">REACTJS</i>
             <div className="reactBox">
               <p>60%</p>
+            </div>
+          </div> */}
+          <div className="skills">
+            <h2>HTML</h2>
+            <div className="progress-bar">
+              <div className="html"><span>86%</span></div>
+            </div>
+            <h2>CSS</h2>
+            <div className="progress-bar">
+              <div className="css"><span>80%</span></div>
+            </div>
+            <h2>JavaScript</h2>
+            <div className="progress-bar">
+              <div className="javascript"><span>70%</span></div>
+            </div>
+            <h2>jQuery</h2>
+            <div className="progress-bar">
+              <div className="jquery"><span>60%</span></div>
+            </div>
+            <h2>ReactJS</h2>
+            <div className="progress-bar">
+              <div className="react"><span>65%</span></div>
             </div>
           </div>
         </div>
