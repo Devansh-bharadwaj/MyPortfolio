@@ -5,28 +5,35 @@
   --sea-green-dark: #0CBFAE;
   --primary-text: #09BEAD;
   --sea-green-shadow: rgba(11, 190, 173,0.4);
-  --header-background : rgba(11, 190, 173,0.8);
+  /* --header-background : rgba(11, 190, 173,0.8); */
+  --header-background: #CB1C8D;
   --orange: #F57F17;
-  --highlighted-text: #FF5823;
+  --highlighted-text: #F56EB3;
   --orange-shadow: rgba(245, 127, 23,0.2);
-  --header-text: #ffffff;
-  --tagline-text: #333333;
+  --header-text: #460C68;;
+  --tagline-text: black;
   --header-text-hover: #01302cda;
   --error-message:  #e44f4fd1;
   --toast-error: #e44f4ffa;
   --toast-shadow:  #9c9c9ce3;
   --toast-success: #0CBFAE;
   --loader-color: #0CBFAE;
-  --home-bg: url('./PortfolioContainer/Home/bg.jpg');
-  --bg-component: #fff;
+  /* --home-bg: url('./PortfolioContainer/Home/z-gradiant.jpg'); */
+  /* --bg-component: #fff; */
+  --bg-component: url('./PortfolioContainer/Home/z-gradiant.jpg');
   --bg-progress: #fff;
   --sHeading-text: #000;
   --progress-text-color: black;
   --card-bg: #fff;
-  --card-border: green;
-  --contact-me-bg: url('./PortfolioContainer/ContactMe/contactme1.jpg');
-  --link-text: rgba(11, 190, 173,0.8);
+  --card-border: #7F167F;
+  --contact-me-bg: url('./PortfolioContainer/ContactMe/cont.png');
+  --link-text: #7F167F;
   --bg-progress-circle: #fff;
+  --img-box-shadow: 0px 5px 20px rgb(0 0 0 / 50%);
+  --card-box-shadow: 0px 5px 20px rgb(0 0 0 / 50%);
+  --project-card-bg: #fff;
+  --imgBox-bg: #fff;
+  --project-title: black;
 }
 
 .dark-theme {
@@ -47,4 +54,8 @@
   --card-border: #B3541E;
   --contact-me-bg: url('./PortfolioContainer/ContactMe/contactmedark.png');
   --link-text: #B3541E;
+  --img-box-shadow: 0px 5px 20px rgb(0 0 0 / 50%);
+  --project-card-bg: #461111;
+  --imgBox-bg: #B3541E;
+  --project-title: #541212;
 }

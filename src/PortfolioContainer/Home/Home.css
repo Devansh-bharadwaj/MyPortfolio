@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 670px;
-  background-image: var(--home-bg);
+  /* background-image: var(--home-bg);
+  background-size: 100% 100%; */
 }
 
 /* profile.css */
@@ -14,7 +15,7 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-  background-image: var(--home-bg);
+  /* background-image: var(--home-bg); */
   margin-top: 65px;
 }
 .profile-parent {
@@ -70,7 +71,7 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("./profile.jpeg");
+  background-image: url("./deva.jpg");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skills.css";
+import skillPic from './skillpic.png';
 
 export default function Skills() {
   return (
@@ -62,7 +63,7 @@ export default function Skills() {
         </div>
         <div className="sRightBox">
           <img
-            src="	https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg"
+            src={skillPic}
             alt="skill"
           />
         </div>

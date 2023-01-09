@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--header-background);
+    /* background-color: var(--header-background); */
     height: 8vh;
 }
 .subnav {

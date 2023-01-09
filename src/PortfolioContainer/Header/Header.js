@@ -57,7 +57,7 @@ export default function Header() {
           </label>
         </div> */}
         <div style={{width: '37px',cursor:'pointer'}}>
-        <img style={{width: '30px'}} src={img} alt="mode" onClick={toggleTheme} />
+        <img style={{width: '30px', boxShadow:'var(--img-box-shadow)'}} src={img} alt="mode" onClick={toggleTheme} />
         </div>
       </div>
     </div>

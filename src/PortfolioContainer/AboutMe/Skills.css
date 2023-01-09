@@ -20,6 +20,7 @@ body {
 .sRightBox img{
     width: 100%;
     border-radius: 9px;
+    box-shadow: var(--img-box-shadow);
     /* margin-top: 12px; */
     /* margin-left: 14px; */
 }
@@ -54,10 +55,10 @@ body {
     font-size: 18px;
 }
 .progress-bar {
-    background-color: var(--bg-progress);
-    /* width: 600px; */
+    /* background-color: var(--bg-progress); */
     height: 40px;
     border-radius: 5px;
+    background-color: #fff0;
 }
 .progress-bar div {
     height: 10px;
