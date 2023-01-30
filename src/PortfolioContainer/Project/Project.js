@@ -21,7 +21,7 @@ export default function Project() {
   }
   function previewProject3() {
     return (window.location.href =
-      "https://Devansh-bharadwaj.github.io/textUtils");
+      "https://shoppingzone23.netlify.app/");
   }
   return (
     <div className="container my-5">
@@ -112,7 +112,21 @@ export default function Project() {
         <div className="pRightBox">
           <img src={img} alt="projects" />
         </div> */}
-
+        <div className={styles.cardProject}>
+          <div className={styles.imgbox}>
+            <img src={textUtils} />
+            <h2>Shoppingzone</h2>
+          </div>
+          <div className={styles.content}>
+            <p>
+            It is an e-commerce website with login functionality.<br></br>
+                    -ReactJs
+            </p>
+            <button className={styles.pBtn} onClick={previewProject3}>
+              Preview
+            </button>
+          </div>
+        </div>
         <div className={styles.cardProject}>
           <div className={styles.imgbox}>
             <img src={pharmacy} />
@@ -154,21 +168,6 @@ export default function Project() {
                     -React.Js
             </p>
             <button className={styles.pBtn} onClick={previewProject2}>
-              Preview
-            </button>
-          </div>
-        </div>
-        <div className={styles.cardProject}>
-          <div className={styles.imgbox}>
-            <img src={textUtils} />
-            <h2>textUtils</h2>
-          </div>
-          <div className={styles.content}>
-            <p>
-            TextUtils application with multi-functionality.<br></br>
-                    -ReactJs
-            </p>
-            <button className={styles.pBtn} onClick={previewProject3}>
               Preview
             </button>
           </div>
