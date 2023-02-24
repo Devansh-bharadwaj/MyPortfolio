@@ -1,0 +1,199 @@
+.main {
+    width: 72%;
+    margin: 60px auto;
+    padding: 14px;
+}
+.table {
+    width: 100%;
+}
+th {
+    color: gray;
+}
+tbody td {
+    text-align: center;
+    padding: 8px;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+tr {
+    color: gray;
+}
+.img {
+    width: 45px;
+}
+.img img {
+    width: 100%;
+}
+.dataBox {
+    display: flex;
+    width: 181px;
+    margin: auto;
+    align-items: center;
+}
+.colorDiv {
+    display: flex;
+    align-items: center;
+    width: 71px;
+    justify-content: space-evenly;
+}
+.deleteIcon {
+    font-size: 20px;
+    color: #F55050;
+    cursor: pointer;
+}
+.contBtn {
+    padding: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #863a6f;
+    background-color: #fff;
+    border: 1px solid #863a6f;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 24px;
+}
+
+.contBtn:hover {
+    background-color: #863a6f;
+    box-shadow: 0px 15px 20px #863a6fb8;
+    color: #fff;
+    transform: translateY(-7px);
+}
+.clearBtn {
+    padding: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #F55050;
+    background-color: #fff;
+    border: 1px solid #F55050;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 24px;
+    float: right;
+}
+.clearBtn:hover {
+    background-color: #F55050;
+    box-shadow: 0px 15px 20px #f55050ad;
+    color: #fff;
+    transform: translateY(-7px);
+}
+.quantIcon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.noItem {
+    font-size: 30px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    flex-direction: column;
+}
+.cartSum {
+    width: 200px;
+    background-color: #863a6f21;
+    margin-top: 79px;
+    padding: 12px;
+}
+.cartSum p {
+    color: gray;
+}
+.cartSum p span {
+    color: black;
+    font-weight: 600;
+}
+.cartSumMain {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.userInfo {
+    display: flex;
+    align-items: center;
+}
+.userInfo img {
+    width: 69px;
+    border-radius: 50%;
+}
+.listView {
+    display: none;
+}
+
+@media screen and (min-width: 1300px) {
+    .contBtn {
+        margin-left: 95px;
+    }
+}
+@media screen and (max-width: 792px) {
+    .main {
+        width: 92%;
+    }
+}
+@media screen and (max-width: 555px) {
+    .table {
+        display: none;
+    }
+    .listView {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px;
+        align-items: center;
+        width: 100%;
+        border: 1px solid gray;
+        margin: 30px auto;
+    }
+    .imgBox {
+        width: 43%;
+    }
+    .imgBox img {
+        width: 142px;
+    }
+    .contentBox {
+        width: 70%;
+    }
+    .colorBox {
+        display: flex;
+        align-items: center;
+        width: 44%px;
+        color: gray;
+    }
+    .flexBox1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .inerBox {
+        width: 44%;
+        color: gray;
+    }
+}
+@media screen and (max-width: 452px) {
+    .imgBox {
+        width: 43%;
+    }
+    .imgBox img {
+        width: 125px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .imgBox {
+        width: 30%;
+    }
+    .imgBox img {
+        width: 85px;
+    }
+}

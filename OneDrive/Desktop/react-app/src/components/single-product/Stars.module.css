@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.icon {
+    color: orange;
+}
+.review {
+    margin-left: 8px;
+    color: gray;
+}
+.main {
+    margin-top: -12px;
+}

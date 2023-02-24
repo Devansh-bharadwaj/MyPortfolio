@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 72%;
+    margin: 54px auto;
+}
+.lBox {
+    width: 46%;
+}
+.rBox {
+    width: 46%;
+}
+.shopBtn {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #863a6f;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 22px;
+}
+.shopBtn:hover {
+    background-color: #863a6f;
+    box-shadow: 0px 15px 20px #863a6fb8;
+    color: #fff;
+    transform: translateY(-7px);
+}
+.imgBox {
+    position: relative;
+}
+.imgBox img {
+    width: 73%;
+    z-index: 10;
+}
+.imgBox div {
+    position: absolute;
+    background-color: #863a6f47;
+    top: -25px;
+    right: 14px;
+    z-index: -2;
+    width: 278px;
+    height: 278px;
+    animation-name: imgBoxDiv;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+}
+@keyframes imgBoxDiv {
+    from {
+        width: 10px;
+        height: 10px;
+    }
+    to {
+        width: 278px;
+        height: 278px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .main {
+        width: 92%;
+    }
+}
+@media screen and (max-width: 668px){
+    .main{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lBox {
+        width: 81%;
+    }
+    .rBox {
+        width: 81%;
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 468px) {
+    .imgBox div {
+        width: 171px;
+        height: 171px;
+        right: 11px;
+    }
+    @keyframes imgBoxDiv {
+        from {
+            width: 10px;
+            height: 10px;
+        }
+        to {
+            width: 171px;
+            height: 171px;
+        }
+    }
+}
